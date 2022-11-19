@@ -15,7 +15,46 @@
         <label id="email-label" for="email">Email <input type="email" name="your-email" id="email" placeholder="Enter your email" required></label>
         <label id="number-label" for="number">Age(optional) <input type="number" name="your-age" id="number" placeholder="Enter your age" min="13" max="70" required></label>
     </fieldset>
-    <fieldset></fieldset>
-    <fieldset></fieldset>
+    <fieldset>
+        <label for="referrer">Which option best describes your current role?</label>
+        <select name="first-dropdown" id="fdropdown">
+            <option value=" ">Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+        </select>
+        <label for="reference">Would you recommend freeCodeCamp to a friend?</label>
+        <label for="first-answer"><input type="radio" id="first-answer" name="answer">Definitely</label>
+        <label for="second-answer"><input type="radio" id="second-answer" name="answer">Maybe</label>
+        <label for="third-answer"><input type="radio" id="third-answer" name="answer">Not sure</label>
+    </fieldset>
+    <fieldset>
+        <label for="sreferrer">What is your favorite feature of freeCodeCamp?</label>
+        <select name="second-dropdown" id="sdropdown">
+            <option value=" ">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+        </select>
+        <label for="reference">What would you like to see improved? (Check all that apply)</label>
+        <label for="f-answer"><input type="checkbox" id="first-answer" name="answer">Front-end Projects</label>
+        <label for="s-answer"><input type="checkbox" id="second-answer" name="answer">Back-end Projects</label>
+        <label for="t-answer"><input type="checkbox" id="third-answer" name="answer">Data Visualization</label>
+        <label for="forth-answer"><input type="checkbox" id="first-answer" name="answer">Challenges</label>
+        <label for="fifth-answer"><input type="checkbox" id="second-answer" name="answer">Open Source Community</label>
+        <label for="sixth-answer"><input type="checkbox" id="third-answer" name="answer">Gitter help rooms</label>
+        <label for="seventh-answer"><input type="checkbox" id="first-answer" name="answer">Videos</label>
+        <label for="eighth-answer"><input type="checkbox" id="second-answer" name="answer">City Meetups</label>
+        <label for="ninth-answer"><input type="checkbox" id="third-answer" name="answer">Wiki</label>
+        <label for="tenth-answer"><input type="checkbox" id="second-answer" name="answer">Forum</label>
+        <label for="eleventh-answer"><input type="checkbox" id="third-answer" name="answer">Additional Courses</label>
+    </fieldset>
+    <fieldset>
+        <label>Any comments or suggestions?<textarea name="your-comments" id="comments" rows="3" cols="30" placeholder="Enter your comment here..."></textarea></label>
+    </fieldset>
+    <input value="Submit" type="submit">
 </body>
 </html>
